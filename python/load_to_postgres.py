@@ -3,14 +3,13 @@ from sqlalchemy import create_engine
 import os
 import csv
 
-# ==== НАСТРОЙКИ ПОДКЛЮЧЕНИЯ — впиши свои данные ====
-DB_USER = "postgres"       # твой пользователь
-DB_PASSWORD = "123456"  # впиши сюда свой пароль
+DB_USER = "postgres"       
+DB_PASSWORD = "123456"  
 DB_HOST = "localhost"
 DB_PORT = "5432"
 DB_NAME = "postgres"
 
-# Строка подключения — собирает все данные выше в один "адрес" базы
+# Строка подключения — собирает все данные выше
 connection_string = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}?client_encoding=utf8"
 engine = create_engine(connection_string)
 
