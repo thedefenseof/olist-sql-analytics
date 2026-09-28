@@ -19,7 +19,7 @@
 5. RFM-сегментация клиентской базы — тройной `CTE`, `JOIN`, `EXTRACT`, `CASE`
 
 ### python/load_to_postgres.py
-Загружает 9 CSV-файлов датасета в PostgreSQL через pandas + SQLAlchemy (простой ETL-скрипт: чтение → запись в таблицы).
+Загружает 9 CSV-файлов датасета в PostgreSQL через pandas + SQLAlchemy (простой ETL-скрипт: чтение и запись в таблицы).
 
 ## Ключевые инсайты
 
